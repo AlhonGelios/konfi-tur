@@ -1,9 +1,18 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
 
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 
 @import 'base/variables';
 @import 'base/animations';
+@import 'blocks/promo';
 
 
 @import 'media';

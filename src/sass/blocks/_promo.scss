@@ -1,0 +1,45 @@
+.promo {
+    min-height: 650px;
+    padding: 25px 0 275px 0;
+    background: url(../img/bg.jpg) center (center/cover) no-repeat;
+    &__descr {
+        width: 270px;
+        margin-top: 72px;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__phones {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 35px;
+            height: 35px;
+        }
+        margin-top: 35px;
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-left: 10px;
+        a {
+            color: #000000;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover{
+                text-decoration: none;
+                }
+        }
+    }
+}
