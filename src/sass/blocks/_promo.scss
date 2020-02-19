@@ -2,23 +2,23 @@
     position: relative;
     min-height: 600px;
     padding: 25px 0 275px 0;
+    overflow: hidden;
     // background: url(../img/bg.jpg) center (center/cover) no-repeat;
     &__mountains {
-        z-index: 9;
+        z-index: -1;
         position: absolute;
-        display: block;
+        bottom: 0;
         right: 50%;
-
-        // transform: translateX(50%);
-        // &_animated {
-        //     animation-name: mountains;
-        //     animation-duration: 2s;
-        //     animation-timing-function: ease;
-        //     animation-iteration-count: infinite;
-        // }
-    }
+        transform: translateX(50%);
+        }
+    &__wave {
+        z-index: -2;
+        position: absolute;
+        bottom: -400px;
+        left: -30px;
+        transform: scaleX(3);  
+        }
     &__descr {
-        z-index: 10;
         width: 270px;
         margin-top: 72px;
         margin-bottom: 0;

@@ -1,0 +1,34 @@
+.bg {
+    &_animatedMountains {
+        animation-name: mountains;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        }
+    &_animatedWaveBigTranslate {
+        animation-name: wave;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards
+        }
+    &_animatedWaveBigRolling {
+        animation-name: waveRolling;
+        animation-duration: 5s;
+        animation-delay: 3s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        }
+    &_animatedWaveSmallTranslate {
+        animation-name: wave;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards
+        }
+    &_animatedWaveSmallRolling {
+        animation-name: waveRolling;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        }
+    }
