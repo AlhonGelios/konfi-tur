@@ -27,12 +27,13 @@
         bottom: 0px;
     }
 }
-@keyframes wave {
+@keyframes waveTranslate {
     from {
         bottom:-400px;
     }
     to {
         bottom: -3px;
+        transform: translateY(50%);
     }
 }
 @keyframes waveRolling {
@@ -44,5 +45,13 @@
     }
     to {
         transform: skew(0deg);
+    }
+}
+@keyframes clouds {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(115vw);
     }
 }

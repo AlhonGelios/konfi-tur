@@ -10,14 +10,32 @@
         bottom: 0;
         right: 50%;
         transform: translateX(50%);
-        }
+    }
     &__wave {
         z-index: -2;
         position: absolute;
         bottom: -400px;
         left: -30px;
-        transform: scaleX(3);  
-        }
+        width: 40vw;
+        transform: scaleY(0.5);
+        img {
+            width: 100%;
+            }  
+    }
+    &__ground {
+        z-index: -2;
+        position: absolute;
+        bottom: -400px;
+        right: 0; 
+        width: 40vw;
+        height: 150px;
+        background-color: #77481C;
+    }
+    &__cloud {
+        z-index: -2;
+        position: absolute;
+        width: 220px;
+    }
     &__descr {
         width: 270px;
         margin-top: 72px;
