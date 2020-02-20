@@ -3,34 +3,34 @@
         animation-name: mountains;
         animation-duration: 3s;
         animation-timing-function: ease-out;
-        }
+    }
     &_animatedWaveBigTranslate {
         animation-name: waveTranslate;
         animation-duration: 3s;
         animation-timing-function: ease-out;
         animation-fill-mode: forwards;
-        }
+    }
     &_animatedWaveBigRolling {
         animation-name: waveRolling;
         animation-duration: 5s;
         animation-delay: 3s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
-        }
+    }
     &_animatedWaveSmallTranslate {
         animation-name: waveTranslate;
         animation-duration: 3s;
         animation-delay: 1s;
         animation-timing-function: ease-out;
         animation-fill-mode: forwards;
-        }
+    }
     &_animatedWaveSmallRolling {
         animation-name: waveRolling;
         animation-duration: 5s;
         animation-delay: 1s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
-        }
+    }
     &_animatedGround {
         animation-name: mountains;
         animation-duration: 3s;
@@ -38,7 +38,7 @@
         animation-timing-function: ease-out;
         animation-fill-mode: forwards
     }
-    &_animatedCloud1 {
+    &_animatedCloud-1 {
         animation-name: clouds;
         animation-duration: 200s;
         animation-delay: 3s;
@@ -48,7 +48,7 @@
         left: -220px;
         top: 160px;
     }
-    &_animatedCloud2 {
+    &_animatedCloud-2 {
         animation-name: clouds;
         animation-duration: 200s;
         animation-delay: 100s;
@@ -58,4 +58,53 @@
         left: -220px;
         top: 100px;
     }
+    &_animatedWood-1 {
+        animation-name: wood;
+        animation-duration: 1s;
+        animation-delay: 4s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+        right: 160px;
+        bottom: 70px;
     }
+    &_animatedWood-2 {
+        animation-name: wood;
+        animation-duration: 1s;
+        animation-delay: 4.5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+        right: 50px;
+        bottom: 40px;
+    }
+    &_animatedWood-3 {
+        animation-name: wood;
+        animation-duration: 1s;
+        animation-delay: 5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+        right: 300px;
+        bottom: 30px;
+    }
+    &_animatedSun {
+        animation-name: sun;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+    &_animatedRay {
+        animation-name: rayScale;
+        animation-duration: 5s;
+        animation-delay: 4s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+    &_animatedRayRotate {
+        animation-name: rayRotate;
+        animation-duration: 5s;
+        animation-delay: 9s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+}

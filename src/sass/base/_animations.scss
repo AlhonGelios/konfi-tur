@@ -55,3 +55,43 @@
         transform: translateX(115vw);
     }
 }
+@keyframes wood {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes sun {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
+@keyframes ray {
+    from {
+       transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes rayScale {
+    from {
+       transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes rayRotate {
+    from {
+       transform: rotate(0);
+    }
+    to {
+        transform: rotate(2deg);
+    }
+}
