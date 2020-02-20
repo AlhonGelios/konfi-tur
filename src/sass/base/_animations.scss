@@ -49,10 +49,10 @@
 }
 @keyframes clouds {
     from {
-        transform: translateX(0vw);
+        transform: translateX(0);
     }
     to {
-        transform: translateX(115vw);
+        transform: translateX(100vw);
     }
 }
 @keyframes wood {
